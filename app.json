@@ -1,0 +1,18 @@
+{
+  "pages": [
+		"pages/board/board",
+    "pages/list/list",
+		"pages/item/item",
+		"pages/search/search",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#35495e",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

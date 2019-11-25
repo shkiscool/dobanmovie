@@ -1,0 +1,25 @@
+.slide-image {
+	width:100%;height: 100%;
+}
+.board {
+	display: flex;
+	flex-direction: column;
+}
+.board-item {
+	display: flex;
+	flex: 1;
+	/* 高亮显示 
+	cursor: pointer;	
+	*/
+	border: 1rpx solid #eee;
+	margin-top: 20rpx;
+	padding: 30rpx;
+	
+}
+.board-item text {
+	flex: 1;
+}
+.board-item image {
+	width:80rpx;
+	height: 80rpx;
+}

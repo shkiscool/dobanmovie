@@ -1,0 +1,38 @@
+<view class="container">
+	<!-- 轮播 -->
+	<view class="slide">
+		<swiper indicator-dots="true" autoplay="true" interval="8000" duration="1000">
+			<block wx:for="{{imgUrls}}">
+				<swiper-item>
+					<image src="{{item}}" class="slide-image" width="355" height="200" mode="aspectFill"/>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+	<view class="board">
+		<navigator url="../list/list?type=in_teatchers&title=kk" hover-class="none">
+		<view class="board-item">
+			<text>正在热映</text>
+			<image src="../../images/arrowright.png" mode="aspectFill"/>
+		</view>
+		</navigator>
+		<navigator>
+		<view class="board-item">
+			<text>正在热映</text>
+			<image src="../../images/arrowright.png" mode="aspectFill"/>
+		</view>
+		</navigator>
+		<navigator>
+		<view class="board-item">
+			<text>正在热映</text>
+			<image src="../../images/arrowright.png" mode="aspectFill"/>
+		</view>
+		</navigator>
+		<navigator>
+		<view class="board-item">
+			<text>正在热映</text>
+			<image src="../../images/arrowright.png" mode="aspectFill"/>
+		</view>
+		</navigator>
+	</view>
+</view>
